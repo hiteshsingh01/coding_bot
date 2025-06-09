@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ai-coding-chat-bot
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
